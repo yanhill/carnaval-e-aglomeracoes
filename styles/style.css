@@ -1,0 +1,91 @@
+body{
+    background-color:'black';
+    margin:0;
+}
+
+.mesa{
+    position:fixed;
+    z-index: 1;
+    top:0;
+    margin: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.instrucoes{
+    line-height: 1em;
+margin-top: 5px;
+font-weight: 300;
+color: #16C1F3;
+}
+
+.observacoes {
+    background-color: #004A80;
+    border-radius: 5px;
+    max-width: 300px;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #004A80;
+    border-radius: 5px;
+}
+
+.tituloDaAnalise{
+    font-weight: 600;
+    padding: 15px;
+    color: white;
+    margin:0;
+}
+
+.subtituloDaAnalise{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    padding: 15px;
+    color: #16C1F3;
+    margin:0;
+}
+
+#mapid{
+    position:fixed;
+    z-index: 0;
+}
+
+.analise{
+    position: fixed;
+    z-index: 1;
+    margin:10px;
+    bottom:0;
+}
+
+.logo-prefeitura{
+    position:fixed;
+    z-index: 1;
+    bottom: 25;
+    right: 10;
+}
+
+.logo-prefeitura img{
+    width: 150px;
+}
+
+.leaflet-container .leaflet-control-attribution {
+    background: #004A80;
+    color: white;
+}
+
+.leaflet-container a {
+    color: #16C1F3;
+}
+
+.leaflet-left .leaflet-control {
+    right: 10;
+    position: fixed;
+    top: 10;
+}
+
+#flyerImage{
+    max-width: 30vw;
+}
